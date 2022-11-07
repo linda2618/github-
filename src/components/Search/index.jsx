@@ -8,7 +8,11 @@ export default class Search extends Component {
     console.log(keyWord);
     //发送网络请求
     axios.get(`http://localhost:3000/api/search/users?q=${keyWord}`).then(res => {
-      console.log('成功了！',res.data);
+      // console.log(res.data.items);
+      // res.data.items.map(usersObj => {
+      //   this.props.getUsers(usersObj)
+      // })
+      this.props.getUsers(res.data.items)
     },
     error => {
       console.log('失败了！',error);
