@@ -39,6 +39,7 @@ export default class List extends Component {
           <div className="card">
             <a href="https://github.com/reactjs" target="_blank" rel="noreferrer">
               <img
+              alt="avatar"
                 src="https://avatars.githubusercontent.com/u/6412038?v=3"
                 style={{ width: "100px" }}
               />
@@ -48,6 +49,7 @@ export default class List extends Component {
           <div className="card">
             <a href="https://github.com/reactjs" target="_blank" rel="noreferrer">
               <img
+               alt="avatar"
                 src="https://avatars.githubusercontent.com/u/6412038?v=3"
                 style={{ width: "100px" }}
               />
